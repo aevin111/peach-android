@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.peach">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".activities.FieldCapacityActivity"></activity>
+        <activity android:name=".activities.Symptom2Activity" />
+        <activity android:name=".activities.ClassificationsActivity" />
+        <activity android:name=".activities.DiseasesPlantsActivity" />
+        <activity android:name=".activities.SymptomActivity" />
+        <activity android:name=".activities.CropsListActivity" />
+        <activity android:name=".activities.ByDateChecklistActivity" />
+        <activity android:name=".activities.TodayChecklistActivity" />
+        <activity android:name=".activities.CalendarActivity" />
+        <activity android:name=".activities.FullPlantInfoActivity" />
+        <activity android:name=".activities.SearchResultsActivity" />
+        <activity android:name=".activities.SearchPlantActivity" />
+        <activity android:name=".activities.CreateNewCropActivity" />
+        <activity android:name=".activities.ListAllPlantsActivity" />
+        <activity android:name=".activities.PlantsActivity" />
+        <activity android:name=".activities.MainPanelActivty" />
+        <activity android:name=".activities.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
